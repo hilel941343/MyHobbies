@@ -7,6 +7,10 @@ const HobbyCard = ({ hobby }) => (
     style={{
       backgroundImage: `url(${hobby.image})`,
       height: '100vh',
+       top: 0,
+       left: 0,
+       width: '100vw',
+       height: '100vh',
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       color: 'white',
